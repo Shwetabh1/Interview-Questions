@@ -1,0 +1,40 @@
+Add more
+
+EASY
+
+Query 1 : List the employee whose employee number is 100.
+Select * from Employee where employee_Num=100;
+
+Query 2 : List the Employee whose salary is between 50 K to 1 Lac.
+Select * from Employee where salary between 50000 and 100000;
+or Select * from Employee where salary >= 50000 and salary <= 100000;
+
+Query 3 : List the Employees whose name starts with ‘Ami’.
+Select * from Employees where name like ‘Ami%’;
+
+Query 4 : List the Employees whose name starts with A and surname starts with S.
+Select * from Employees where name like ‘A%’ and surname like ‘S%’;
+
+Query 5: Write the SQL Query to find maximum salary of each department?
+What is SQL Query to find maximum salary of each department?
+
+
+MODERATE:
+
+Query 1: List the Employees whose name not starts with P,B,R characters.
+Select * from Employees where name like ‘[!PBR]%’;
+OR
+Select * from Employees where name not like ‘[PBR]%’;
+
+Query 2: Find the 2nd highest salary of Employees.
+Select * from Employees a where 2 = select count (distinct salary) from Employee where a.salary <= b.salary;
+
+
+Query 3 : Display the Max salary and min salary together from Employees table?
+Select max (salary) from Employees
+Union
+Select min (salary) from Employees;
+
+
+
+
