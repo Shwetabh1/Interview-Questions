@@ -1,4 +1,7 @@
-// find unique character in javascript
+// Given a string, determine if it only contains unique characters or not.
+// AA -> NO
+// ABCDEF -> YES
+// ABCDEE -> NO
 
 function findUniqueString(str) {
     let strDict = {}
@@ -13,10 +16,10 @@ function findUniqueString(str) {
     return "UNIQUE"
 }
 
-console.log(findUniqueString(''))
-console.log(findUniqueString('AA'))
-console.log(findUniqueString('AAAAAAAAAAAAAAAAAAAAAAAAA'))
-console.log(findUniqueString('ABCDEFGHIJKLMNOPQRSTUVWXYZ'))
-console.log(findUniqueString(''))
-console.log(findUniqueString('AA'))
-console.log(findUniqueString('X'))
+// console.log(findUniqueString(''))
+// console.log(findUniqueString('AA'))
+// console.log(findUniqueString('AAAAAAAAAAAAAAAAAAAAAAAAA'))
+// console.log(findUniqueString('ABCDEFGHIJKLMNOPQRSTUVWXYZ'))
+// console.log(findUniqueString(''))
+// console.log(findUniqueString('AA'))
+// console.log(findUniqueString('X'))

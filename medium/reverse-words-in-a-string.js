@@ -1,7 +1,7 @@
 /*
  * Given a String reverse the words in it.
- * EXAMPLE: "How deep    is     your Love?"
- * OUTPUT : "woH peed si ruoy evoL"
+ * EXAMPLE: "How deep    is     the Ocean?"
+ * OUTPUT : "woH peed si eht naecO"
  * trim the whitespaces if it exists
  * I have used native Javscript library funtions.
  * JavaScript strings are immutable, meaning the memory allocated to each cannot be written to, making true "in place" reversals impossible .
@@ -20,7 +20,7 @@ let reverseWords = function(str) {
 	return auxStr.join(" ");
 }
 
-let string1 = "How deep is your Love?"
+let string1 = "How deep is the Ocean?"
 let string2 = "DC is better than             Marvel.      "
 
 console.log(reverseWords(string1));

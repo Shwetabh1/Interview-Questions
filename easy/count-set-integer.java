@@ -1,5 +1,10 @@
 /*
  * Count the number of set bits in an Integer.
+ * Input: num  = 16
+ * Output: 1
+ *
+ * Input: num  = 7
+ * Output: 3
  */
 public class CountSetBits {
 
@@ -17,9 +22,6 @@ public class CountSetBits {
     	   x=x>>1; //you can also write x/=2;
         }
         System.out.println(count);
-        /*
-         * The direction to which the arrow points is the direction in which the arrow moves.
-         */
 	}
 
 }

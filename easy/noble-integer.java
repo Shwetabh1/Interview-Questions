@@ -2,8 +2,12 @@
  * Given an array arr[], find a Noble integer in it. 
  * An integer x is said to be Noble in arr[] if the number of integers greater than x are equal to x. 
  * If there are many Noble integers, return any of them. If there is no, then return -1.
- * Implementation using Sorting
- * I have also uploaded another implementation using TreeSet. Do check it out.
+ * Input: [1, 2, 2, 3]
+ * Output: true
+ * Input: [7, 3, 16, 10]
+ * Output : 3 
+ * Input  : [-1, -9, -2, -78, 0]
+ * Output : -1
  */
 import java.util.Arrays;
 
